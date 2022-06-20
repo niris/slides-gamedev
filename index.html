@@ -1,0 +1,119 @@
+<textarea id=source>
+# Plan
+
+- Give some explainations:
+  - graphic theories (don't worry it's cool)
+  - global knowledge about game industry
+  - youtube channels about making games
+- Create and play our own game (in C !)
+- Q: Who played a game ?
+- Q: Who tried to make games ?
+- Q: What skills you need to make a game ?
+
+---
+
+# Game development is large
+
+- **Story** in a game is like a story in a porn movie. It's expected to be there, but it's not that important -- John D. Carmack
+- [Artistic](https://www.youtube.com/watch?v=-ZxPhDC-r3w) for [demoscene](https://youtu.be/5MexnBunH_g?t=12) or for a [crack](https://www.youtube.com/watch?v=BwWB4TbGUCo)
+- [Embedded programming](https://www.retroreversing.com/public/images/ps3/PS3%20DECR-1000A%20Reference%20Tool.jpg) [older](https://i.redd.it/jy4s1zvlw1y01.jpg)
+- [Game Design](https://www.youtube.com/watch?v=8uE6-vIi1rQ)
+- [Pitch](https://www.youtube.com/watch?v=4LTtr45y7P0) for selling your idea
+- [Music composition](https://youtu.be/U4FNBMZsqrY?t=2076) from [GameDevConf](https://www.youtube.com/c/Gdconf/videos?view=0&sort=p&flow=grid)
+- [Graphic Pipelining](https://www.adriancourreges.com/blog/2016/09/09/doom-2016-graphics-study/#clustered-forward-rendering-of-opaque-objects)
+- Debuging (using [ReShade](https://youtu.be/1vX9QG9DVeg?t=147)
+[renderdoc](https://github.com/baldurk/renderdoc)) 
+[example](https://youtu.be/IUiNUky-ibM?t=2653)
+- [Mathematics](https://en.wikipedia.org/wiki/SIGGRAPH) (ex: fluid/physics simulation)
+- Actor for [MoCap](https://youtu.be/xH247F-r0rA?t=870)
+- Testing : [speedrun](https://youtu.be/5iVrLMDynsQ?t=235) + [TAS](https://www.youtube.com/watch?v=j5j6l9ULxmI) speedrun + [???](https://www.youtube.com/watch?v=ff9ldkz1h1M)
+- Any more ?
+
+What is your skill
+
+---
+
+# What you need to create
+
+- Game assets:
+  - music : mp3 or [tracker](https://modarchive.org/index.php?request=view_chart&query=tophits)
+  - sprite: extract or get from [spritedatabase](https://spritedatabase.net/file/3276) / [spriters](https://www.spriters-resource.com/custom_edited/sonicthehedgehogcustoms/)
+  - tiles map: extract or get from [internet](https://www.snesmaps.com/maps/ZeldaALinkToThePast/ZeldaALinkToThePastBG.html)
+  - 3D [models](https://sketchfab.com/3d-models/categories/characters-creatures?sort_by=-likeCount)
+- Game Executable (exe, apk) => depends on the target
+
+---
+
+# What you need to learn
+
+- Game theories (game loop, event loop, AI)
+- **3D** [graphic pipeline](https://image.slidesharecdn.com/03pipeline-120124194932-phpapp01/95/cs-354-more-graphics-pipeline-46-728.jpg) works (pipeline)
+- **2D** graphic pipeline ([background](https://youtu.be/wfrNnwJrujw?t=126) [sprites](https://youtu.be/ZWQ0591PAxM?t=264))
+- C/++ and Shading programming language
+- Graphic API: Direct3D, OpenGL, Vulkan
+- Sound API: DirectSound, PulseAudio, ALSA
+- Input API: DirectXInput, [evdev](https://www.kernel.org/doc/Documentation/input/gamepad.txt) for (screen touch, keyboard, mouse...)
+- Plateform API: X11, W32, AndroidSDK
+- Cross-platform library (SDL, SFML, [FMOD](https://www.fmod.com/)...)
+- Network stack, UDP socket, ... for multiplayer
+
+Easy right ?
+
+---
+
+# Our Game Target
+
+### *by amonwan, thanwa, naracheet*
+
+- Run on Android **and** PC
+  - Touchscreen *-and-* mouse/keyboard
+- 2D game
+  - sidescroller style ? (Mario)
+  - topdown style ? (Among Us)
+
+---
+
+# Exam
+
+- What Graphic API I shall use for :
+  - a XBox + Windows ?
+  - a PC + Android ?
+- What Audio, Input API ... 
+
+![meme](https://i.imgflip.com/6jcehe.jpg)
+
+---
+
+# Result
+
+- Boooriiing ! nobody care !
+
+
+---
+
+# No Code ? Use an Engine !
+
+By popularity:
+
+1. [Unreal Engine](https://youtu.be/7ZLibi6s_ew?t=59) for (3D)
+1. [Unity](https://unity.com/) for (2D/3D)
+1. [Godot](https://editor.godotengine.org/releases/latest/) (2D/3D)
+1. [RPG Maker](https://www.rpgmakerweb.com/) (2D)
+
+Pro: Cross platform, no bug, Optimized, Industry standard
+
+Con: You are limited by the engine
+
+I encourage you to use an engine, but ...
+
+---
+
+# Let's code anyway !
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/SDL_Layers.svg/1219px-SDL_Layers.svg.png)
+</textarea><style>img{    max-width: 100%;max-height: 50vh;margin: auto;display: block;}
+.remark-slide-content>p,
+.remark-slide-content>ol,
+.remark-slide-content>ul{font-size:1.5em}</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
+<script>var slideshow = remark.create();</script>
